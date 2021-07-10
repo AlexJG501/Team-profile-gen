@@ -17,7 +17,7 @@ A Node app used to generate a webpage that displays employees on a team.
 - [Bootstrap]
 
 ## Screenshot
-![finished page](./images/builtTPG.jpg)
+![finished page](./images/builtpage.jpg)
 
 ## Walkthrough Video
-<a href="https://drive.google.com/file/d/1WhAc3BHfR7DjzQmsBOPsPMFdPeq0xxqQ/view"> Click Here!</a>
+<a href="https://drive.google.com/file/d/1hBRxguVjNepGNspbppNbGjrajfP-LmLW/view"> Click Here!</a>
