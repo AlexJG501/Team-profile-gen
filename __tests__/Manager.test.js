@@ -6,7 +6,7 @@ test('creates a Manager object from Employee', () => {
     expect(manager.name).toBe('Alex Godwin');
     expect(manager.email).toBe('alexj.godwin@gmail.com');
     expect(manager.id).toBe('ABC');
-    expect(magager.office).toBe('7');
+    expect(manager.office).toBe(7);
 })
 
 test('getRole() returns the role', () => {
@@ -16,5 +16,5 @@ test('getRole() returns the role', () => {
 
 test('getOffice() returns the office number', () => {
     const manager = new Manager('Alex Godwin', 'alexj.godwin@gmail.com', 'ABC', 7);
-    expect(manager.getOffice()).toBe(1);
+    expect(manager.getOffice()).toBe(7);
 })

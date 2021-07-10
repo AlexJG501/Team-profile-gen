@@ -1,7 +1,7 @@
 const Engineer = require('../lib/Engineer');
 
 test('creates an Engineer object that inherits from Employee', () => {
-    const engineer = new Engineer('Alex Godwin', 'alexj.godwin@gmail.com', 'DEF', 'vanessalane');
+    const engineer = new Engineer('Alex Godwin', 'alexj.godwin@gmail.com', 'DEF', 'AlexJG501');
 
     // if engineer has these attrs, it's inheriting from Employee.
     expect(engineer.name).toBe('Alex Godwin');
@@ -18,6 +18,6 @@ test('getRole() returns the role', () => {
 })
 
 test('getGithub() returns the github username', () => {
-    const engineer = new Engineer('Alex Godwin', 'alexj.godwin@gmail.com', 'ABC', 'vanessalane');
-    expect(engineer.getGithub()).toBe('Alex Godwin');
+    const engineer = new Engineer('Alex Godwin', 'alexj.godwin@gmail.com', 'ABC', 'AlexJG501');
+    expect(engineer.getGithub()).toBe('AlexJG501');
 })
