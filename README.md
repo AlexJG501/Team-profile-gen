@@ -2,6 +2,7 @@
 
 ## Description
 A Node app used to generate a webpage that displays employees on a team.
+- Sample of the created HTML file is within the /dist folder
 
 **info for each employee**
 - title
